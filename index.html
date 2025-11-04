@@ -1,0 +1,584 @@
+<html>
+
+<head>
+    <!-- Meta tags cơ bản -->
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="🎂 Đếm ngược đến tiệc sinh nhật của Hạ Vy tại SÍT ĐÁT River - 7:39 PM, Thứ 7, 8/11/2025. Hãy đến và cùng nhau tạo nên những khoảnh khắc đáng nhớ!">
+    <meta name="keywords" content="birthday party, sinh nhật, đếm ngược, countdown, celebration">
+    <meta name="author" content="Birthday Countdown">
+    <title>🎂 Sinh Nhật Hạ Vy</title>
+
+    <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+    <meta property="og:title" content="🎂 Sinh Nhật Hạ Vy">
+    <meta property="og:description"
+        content="Đếm ngược đến tiệc sinh nhật của Hạ Vy tại SÍT ĐÁT River - 7:39 PM, Thứ 7, 8/11/2025. Hãy đến và cùng nhau tạo nên những khoảnh khắc đáng nhớ!">
+    <meta property="og:image" content="https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Birthday Countdown">
+    <meta property="og:locale" content="vi_VN">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="🎂 Sinh Nhật Hạ Vy">
+    <meta name="twitter:description"
+        content="Đếm ngược đến tiệc sinh nhật của Hạ Vy tại SÍT ĐÁT River - 7:39 PM, Thứ 7, 8/11/2025. Hãy đến và cùng nhau tạo nên những khoảnh khắc đáng nhớ!">
+    <meta name="twitter:image" content="https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>�</text></svg>">
+
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#ff9fc3">
+    <meta name="robots" content="index, follow">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        :root {
+            --pink-1: #fce7f3;
+            --pink-2: #fbcfe8;
+            --pink-3: #f9a8d4;
+            --accent: #ec4899;
+            --text-dark: #831843;
+            --gradient-start: #ffe5f1;
+            --gradient-end: #fff1f6;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+            color: var(--text-dark);
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto
+        }
+
+        .text {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: visible;
+        }
+
+        .birthday-banner {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, var(--accent), #f472b6);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 999px;
+            font-weight: 600;
+            box-shadow: 0 10px 25px rgba(236, 72, 153, 0.25);
+            margin-bottom: 24px;
+            font-size: 20px;
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+
+        .birthday-banner:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 30px rgba(236, 72, 153, 0.35);
+        }
+
+        .text h1 {
+            font-size: 34px;
+            margin: 12px 0 6px;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .text p {
+            font-size: 15px;
+            margin: 8px 0;
+            color: #6b2636;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 32px 0 24px;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--text-dark);
+            padding: 24px 20px;
+            border-radius: 16px;
+            text-align: center;
+            min-width: 120px;
+            box-shadow: 0 15px 35px rgba(236, 72, 153, 0.12);
+            transform: translateY(0);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .countdown-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(244, 114, 182, 0.1));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .countdown-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(236, 72, 153, 0.2);
+        }
+
+        .countdown-item:hover::before {
+            opacity: 1;
+        }
+
+        .countdown-number {
+            font-size: 44px;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 8px;
+            color: var(--accent);
+            line-height: 1;
+            background: linear-gradient(to right, var(--accent), #f472b6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .countdown-label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-dark);
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        .countdown-title {
+            font-size: 22px;
+            color: #d81b60;
+            margin-bottom: 6px;
+            font-weight: 700
+        }
+
+        .image-container {
+            width: 100%;
+            display: flex;
+            justify-content: center
+        }
+
+        /* Floating Particles */
+        .particles-container {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: var(--pink-3);
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0.6;
+            animation: float 20s infinite;
+        }
+
+        .particle:nth-child(2n) {
+            width: 15px;
+            height: 15px;
+            animation-duration: 25s;
+            background: var(--accent);
+        }
+
+        .particle:nth-child(3n) {
+            width: 8px;
+            height: 8px;
+            animation-duration: 30s;
+            background: linear-gradient(135deg, var(--pink-2), var(--pink-3));
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) rotate(0deg);
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0.6;
+            }
+
+            80% {
+                opacity: 0.6;
+            }
+
+            100% {
+                transform: translate(var(--moveX, 100px), var(--moveY, 100px)) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Video Button */
+        .video-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, var(--accent), #f472b6);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 999px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 25px rgba(236, 72, 153, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(236, 72, 153, 0.35);
+        }
+
+        .video-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.2),
+                    transparent);
+            transition: 0.5s;
+        }
+
+        .video-btn:hover::before {
+            left: 100%;
+        }
+
+        /* Video Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            width: 90%;
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            transform: scale(0.8);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal.active .modal-content {
+            transform: scale(1);
+        }
+
+        .modal video {
+            width: 100%;
+            display: block;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--text-dark);
+            transition: all 0.2s ease;
+        }
+
+        .modal-close:hover {
+            background: var(--pink-2);
+            transform: rotate(90deg);
+        }
+
+        /* Responsive map iframe */
+        .map-wrapper iframe {
+            border-radius: 12px
+        }
+
+        /* small touches */
+        .info-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            padding: 24px;
+            border-radius: 16px;
+            margin: 32px 0;
+            text-align: left;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .info-card p {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .info-card strong {
+            color: var(--accent);
+            font-weight: 600;
+            min-width: 100px;
+        }
+
+        .map-wrapper {
+            margin-top: 40px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+            background: white;
+            padding: 4px;
+        }
+
+        @media (max-width:600px) {
+            body {
+                padding: 20px 16px;
+            }
+
+            .text {
+                padding: 24px 20px;
+            }
+
+            .countdown {
+                gap: 16px;
+            }
+
+            .countdown-item {
+                min-width: calc(50% - 8px);
+                padding: 16px;
+            }
+
+            .countdown-number {
+                font-size: 32px;
+            }
+
+            .info-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Particles Container -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <video id="celebrationVideo" controls>
+                <source src="https://stag.vietnix.dev/wp-content/uploads/2025/11/7176145395151.mp4" type="video/mp4">
+            </video>
+        </div>
+        <button class="modal-close" onclick="closeVideoModal()">×</button>
+    </div>
+
+    <div style="max-width: 950px; margin: auto; width: 100%;">
+        <div class="text">
+            <div class="birthday-banner">
+                <span>✨</span>
+                <span>Chúc Mừng Sinh Nhật!</span>
+                <span>🎂</span>
+            </div>
+
+            <div class="image-container">
+                <img width="400px" style="border-radius: 20px; margin: 10px 0 30px;"
+                    src="https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif" alt="Birthday Cake">
+            </div>
+
+            <button class="video-btn" onclick="openVideoModal()">
+                <span>🎬</span>
+                <span>Cùng Nhau Chuẩn Bị Nào!</span>
+                <span>✨</span>
+            </button>
+
+            <div class="countdown-title">🎈 Đếm Ngược Đến Ngày Vui! 🎈</div>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Ngày</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Giờ</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Phút</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Giây</span>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <p><strong>📍 Địa điểm</strong>SÍT ĐÁT River - Hoàng Sa</p>
+                <p><strong>🕕 Thời gian</strong> 7:39 PM - Thứ 7, 8/11/2025</p>
+                <p><strong>✨ Dress code</strong> Pink & Lovely</p>
+                <p style="margin-top: 16px; font-size: 14px; color: #d81b60;"><strong style="min-width: auto;">📌 Địa chỉ:</strong> 1331 Hoàng Sa, Phường 5, Tân Bình, Thành phố Hồ Chí Minh 72119</p>
+            </div>
+            <div class="map-wrapper">
+                <h3 style="color: var(--accent); margin: 10px 0 20px;">🎈 Địa Điểm Tổ Chức:</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.255964475706!2d106.660862!3d10.7916973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175291cf708c86b%3A0x895eaaf43165cbe!2zU8ONVCDEkMOBVCBSaXZlciAtIEhvw6BuZyBTYQ!5e0!3m2!1svi!2s!4v1762226311100!5m2!1svi!2s"
+                    width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <script>
+            // Set the date we're counting down to - November 8, 2025 at 7:39 PM
+            const countDownDate = new Date("November 8, 2025 19:39:00").getTime();
+
+            // Update the countdown every 1 second
+            const x = setInterval(function () {
+                // Get today's date and time
+                const now = new Date().getTime();
+
+                // Find the distance between now and the countdown date
+                const distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the elements with corresponding IDs
+                document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
+                document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+                document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+                document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+
+                // If the countdown is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.querySelector('.countdown').innerHTML = "<div style='font-size: 24px; color: var(--accent); font-weight: bold;'>🎉 HAPPY BIRTHDAY HẠ VY! 🎂</div>";
+                }
+            }, 1000);
+
+            // Create floating particles
+            function createParticles() {
+                const container = document.getElementById('particles');
+                const particleCount = 20;
+
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+
+                    // Random starting position
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+
+                    // Random movement direction
+                    particle.style.setProperty('--moveX', (Math.random() * 200 - 100) + 'px');
+                    particle.style.setProperty('--moveY', (Math.random() * 200 - 100) + 'px');
+
+                    // Random animation delay
+                    particle.style.animationDelay = (Math.random() * 10) + 's';
+
+                    container.appendChild(particle);
+
+                    // Reset particle position when animation ends
+                    particle.addEventListener('animationend', () => {
+                        particle.style.left = Math.random() * 100 + '%';
+                        particle.style.top = Math.random() * 100 + '%';
+                        particle.style.setProperty('--moveX', (Math.random() * 200 - 100) + 'px');
+                        particle.style.setProperty('--moveY', (Math.random() * 200 - 100) + 'px');
+                    });
+                }
+            }
+
+            // Video Modal Functions
+            function openVideoModal() {
+                const modal = document.getElementById('videoModal');
+                const video = document.getElementById('celebrationVideo');
+                modal.classList.add('active');
+                video.play();
+            }
+
+            function closeVideoModal() {
+                const modal = document.getElementById('videoModal');
+                const video = document.getElementById('celebrationVideo');
+                modal.classList.remove('active');
+                video.pause();
+                video.currentTime = 0;
+            }
+
+            // Initialize particles
+            createParticles();
+        </script>
+</body>
+
+</html>
